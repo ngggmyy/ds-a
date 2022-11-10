@@ -1,0 +1,90 @@
+---------- KIỂU DỮ LIỆU VÀ BIẾN ----------
+
+1. Giá trị đơn (Primitive value)
+<tên gọi/ biến> = <giá trị/ dữ liệu>
+
+VD:
+VAT =  10%
+PI = 3.14
+
+2. Giá trị phức tạp (Object Value)
+
+<tên gọi> = {
+                ....
+            }
+
+VD: 
+
+SơnTùngMTP = {
+                tên = Nguyễn Thanh Tùng;
+                nghệDanh = Sơn Tùng MTP;
+                yearOfBirth = 1994;
+                bàiHát = Lạc trôi, Chúng ta của hiện tại,...
+            }
+
+
+---------- OBJECT VÀ CLASS ----------
+
+1. Đối tượng / Object
+- là những gì phức tạp, chứa đựng thông tin dưới dạng biến, đặc điểm
+- những thứ quanh ta có thể mô tả được qua các info
+
+VD: SonTungMTP, MyTam, Jack, HaAnhTuan, ...
+    Corgi, Chihuahua, Pug, Husky, ...
+--> là các object 
+
+Corgi = {
+            tênKhoaHọc = Canis lupus familiaris;
+            cânNặngTrungBình = 13;
+            tuổiThọ = 15;
+            ...
+        }
+
+2. Class 
+- tên gọi chung cho tập hợp các object có điểm tương đồng
+
+Các object :
+    - SonTungMTP, MyTam, Jack, HaAnhTuan : có điểm chung là ca hát
+        --> Class CaSĩ
+    - Corgi, Chihuahua, Pug, Husky: có điểm chung là các giống chó
+        --> Class Chó 
+
+3. Constructor
+- từ một khuôn đúc (class) có thể tạo ra được rất nhiều object có các đặc tính chung.
+
+VD: Giấy CCCD/ CMND (Class)
+Phễu
+    Họ tên   : ______________
+    Ngày Sinh: ______________
+    Giới tính: ______________
+    Quê quán : ______________
+
+Mỗi lần điền thông tin vào thì ta có được một object mới, object này được đúc (nhân bản) ra từ khuôn CCCD
+
+    Họ tên   : Nguyễn Văn A
+    Ngày Sinh: 01/01/2001
+    Giới tính: Nam
+    Quê quán : HCM
+
+    --> ta có được một công dân (Nguyễn Văn A)
+
+    Họ tên   : Nguyễn Thị B
+    Ngày Sinh: 02/02/2002
+    Giới tính: Nữ
+    Quê quán : Hà Nội
+
+    --> ta có thêm được một công dân (Nguyễn Thị B)
+
+Nhà Nước có một khuôn CCCD, khi điền đầy đủ thông tin vào khuôn thì ta tạo được một công dân (Object) mới
+
+- Có thể    sửa đổi thông tin bằng cách sử dụng hàm set___()
+            xem thông tin bằng cách sử dụng hàm get___()
+
+- new : xin vùng RAM mới để đổ data vào
+
+---------- ACCESS MODIFIERS ----------
++ public        : giấu đi
+- private       : show ra
+# protected
+~ default
+
